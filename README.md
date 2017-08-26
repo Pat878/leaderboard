@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). This is the first React project I have ever created. Here is a [link](https://www.freecodecamp.org/challenges/build-a-camper-leaderboard) to the project's guidelines.
 
-View the live project [here](https://github.com/Pat878/leaderboard).
+View the live project [here](https://pat878.github.io/leaderboard/).
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).

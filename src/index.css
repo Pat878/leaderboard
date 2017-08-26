@@ -1,5 +1,21 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+} */
+
+.btn {
+  color: black;
+  border: 1px solid #777;
+  background: #fff;
+}
+
+.active {
+  background: grey;
+  color: #fff;
+  
+}
+
+.table {
+  margin-top: 20px;
 }

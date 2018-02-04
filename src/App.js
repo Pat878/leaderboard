@@ -6,22 +6,16 @@ import { Jumbotron, Button, Table } from "react-bootstrap";
 var axios = require("axios");
 
 class LeaderBoard extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: [],
-      active: false
-    };
+  state = {
+    name: [],
+    active: false
+  };
 
-    this.allTimeClick = this.allTimeClick.bind(this);
-    this.recentClick = this.recentClick.bind(this);
-  }
-
-  componentDidMount() {
+  componentDidMount = () => {
     this.recentClick();
-  }
+  };
 
-  allTimeClick() {
+  allTimeClick = () => {
     axios
       .get("https://fcctop100.herokuapp.com/api/fccusers/top/alltime")
       .then(res => {
@@ -29,7 +23,7 @@ class LeaderBoard extends React.Component {
       });
   }
 
-  recentClick() {
+  recentClick = () => {
     axios
       .get("https://fcctop100.herokuapp.com/api/fccusers/top/recent")
       .then(res => {
